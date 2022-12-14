@@ -1,0 +1,26 @@
+@import 'src/app/common/vars.scss';
+
+.nav{
+    &-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    &-link{
+        background: $lightestYellow;
+        padding: 10px 30px;
+        border-radius: 8px;
+        color: $darkBlue;
+        transition: .3s all;
+
+        &.active{
+            background: $white;
+        }
+        &:hover{
+            background: $white;
+        }
+    }
+}

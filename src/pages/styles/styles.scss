@@ -1,0 +1,18 @@
+@import 'src/app/common/vars.scss';
+
+.content-wrapper{
+    display: flex;
+}
+
+.amp{
+    &-wrapper{
+        padding-top: 120px;
+        margin: 0 auto;
+    }
+
+    &-form{
+        background: rgba($color: $darkBlue, $alpha: 0.8);
+        padding: 20px;
+        border-radius: 10px;
+    }
+}

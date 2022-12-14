@@ -1,0 +1,8 @@
+@import 'src/app/common/vars';
+
+
+.pd{
+    &-selected{
+        background: $white !important;
+    }
+}

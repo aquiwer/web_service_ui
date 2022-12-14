@@ -1,0 +1,9 @@
+@import 'src/app/common/vars.scss';
+
+.sb{
+    &-wrapper{
+        height: 100vh;
+        width: 300px;
+        background-color: rgba($color: $darkBlue, $alpha: 0.8);
+    }
+}

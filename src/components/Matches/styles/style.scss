@@ -1,0 +1,10 @@
+.matches{
+    &-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 120px;
+        overflow-y: scroll;
+        min-width: 1200px;
+    }
+}
