@@ -5,7 +5,7 @@ import { Match } from '../interfaces/Match.interface'
 
 export const matchApi = createApi({
     reducerPath: 'matchApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:3000/match'}),
+    baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_BACKEND_URL}),
     endpoints: (builder) => ({
         addClub: builder.mutation<Match[], Match>({
             query: (body: Match) => ({
